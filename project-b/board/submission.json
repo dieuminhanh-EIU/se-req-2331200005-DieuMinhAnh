@@ -1,26 +1,26 @@
 {
-  "savedAt": "2026-06-02T10:46:54.131Z",
+  "savedAt": "2026-06-02T10:48:05.323Z",
   "groups": [
     {
-      "id": "d0bafcd9-23de-4fac-a19d-fc237d553e48",
+      "id": "bab1f438-3604-4a1d-a88d-6e1eec83543d",
       "name": "Blockers",
       "color": "#2563eb"
     },
     {
-      "id": "dd107bd1-125e-410e-8006-f497c139d481",
+      "id": "4ce62b1a-c46a-49ae-8dee-89140211a528",
       "name": "Standard Work",
       "color": "#059669"
     },
     {
-      "id": "40ffdce6-de4a-472b-bcc3-76c77ebac1a4",
+      "id": "d9959238-c929-4ce0-b677-c7761bdaf535",
       "name": "Minors",
       "color": "#d97706"
     }
   ],
   "tickets": [],
   "analysis": {
-    "ambiguity1": "Requirement: The app must force users to select a Safe Exchange Zone before they can chat.\n\nWhy it is vague: This creates an unnatural communication flow. It is unclear how a buyer can lock in a physical meetup location before they even chat with the seller to negotiate the price, ask about item conditions, or confirm availability.",
-    "ambiguity2": "",
+    "ambiguity1": "",
+    "ambiguity2": "Requirement: Scanning the barcode with a phone camera to automatically populate the textbook's ISBN and Title.\n\nWhy it is vague: The requirement does not specify the external database or book catalog API (e.g., Google Books, Open Library) required to fetch this metadata from the scanned barcode. It is also unclear if this feature applies only to textbooks or other barcoded items.",
     "conflictSolution": "",
     "nfr1": "",
     "nfr2": "",
