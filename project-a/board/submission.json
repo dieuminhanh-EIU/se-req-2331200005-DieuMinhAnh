@@ -1,28 +1,28 @@
 {
-  "savedAt": "2026-06-02T11:27:23.356Z",
+  "savedAt": "2026-06-02T11:29:00.858Z",
   "groups": [
     {
-      "id": "be10677f-5dba-4c33-8b54-846e6ae3e7c0",
+      "id": "9d924073-85af-4828-90b4-475b043f59b9",
       "name": "Blockers",
       "color": "#2563eb"
     },
     {
-      "id": "bcc3a325-3377-4bf2-bcd9-462028ce64fd",
+      "id": "621b9f57-fed6-429d-80fb-b3bf3625aa11",
       "name": "Standard Work",
       "color": "#059669"
     },
     {
-      "id": "f4a0d148-f704-4f34-88bc-d2c109f05968",
+      "id": "6ca0069b-634f-42fc-a88f-6e8ed3e1ea26",
       "name": "Minors",
       "color": "#d97706"
     }
   ],
   "tickets": [
     {
-      "id": "86b1286a-6789-402a-be44-16ae7f926a0d",
-      "title": "US004: Advisor Override Dashboard",
-      "description": "As an Academic Advisor, I want to view, approve, or deny prerequisite override requests in a dedicated dashboard, so that I can manage special student permissions efficiently.\n\nAcceptance Criteria:\n1. Pass/Fail: The advisor can view a list of all pending override requests from assigned students.\n2. Pass/Fail: Clicking \"Approve\" automatically updates the student's roadmap and allows them to register for the course.",
-      "groupId": "bcc3a325-3377-4bf2-bcd9-462028ce64fd",
+      "id": "2949a5a5-3c82-48a1-8a46-23b975939a3d",
+      "title": "US005: Audit Logging for Overrides",
+      "description": "As an IT Security Officer, I want the system to automatically log every manual prerequisite override with a timestamp and advisor ID, so that we maintain a secure and compliant audit trail.\n\nAcceptance Criteria:\n1. Pass/Fail: Every successful override generates an immutable log entry in the security database.\n2. Pass/Fail: The log entry strictly contains the Timestamp, Student ID, Advisor ID, and Course Code.",
+      "groupId": "621b9f57-fed6-429d-80fb-b3bf3625aa11",
       "status": "todo",
       "type": "User Story",
       "priority": "Medium",
