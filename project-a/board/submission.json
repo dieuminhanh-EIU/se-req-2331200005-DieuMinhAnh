@@ -1,18 +1,18 @@
 {
-  "savedAt": "2026-06-02T10:41:09.637Z",
+  "savedAt": "2026-06-02T10:43:33.119Z",
   "groups": [
     {
-      "id": "43b92d71-dd70-4d38-932b-9645b5723e39",
+      "id": "4e326462-37be-428f-9ea9-8afcaefe906c",
       "name": "Blockers",
       "color": "#2563eb"
     },
     {
-      "id": "86802358-331b-4152-b686-e3d8915ac914",
+      "id": "056fb74b-3935-4307-8f92-a919128174d3",
       "name": "Standard Work",
       "color": "#059669"
     },
     {
-      "id": "12ddd8bf-225c-42d8-a934-1793d0e5a516",
+      "id": "b2f662d5-8b1e-4e0c-a2ef-135407b0c9fd",
       "name": "Minors",
       "color": "#d97706"
     }
@@ -21,9 +21,9 @@
   "analysis": {
     "ambiguity1": "",
     "ambiguity2": "",
-    "conflictSolution": "Conflict: A contradiction between the Head of Advising and the Registrar. The Head of Advising wants students to create a 4-year long-term plan, but the Registrar demands the system check the Live Database and block students from selecting full classes. Checking class seat availability for a semester 2 to 3 years in the future is impossible and directly conflicts with the goal of long-term planning.\n\nProposed Resolution: Design the system with two distinct operating modes: Planning Mode: Applied to future semesters. The system only validates prerequisite logic, allowing students to build a long-term roadmap without checking live database seating capacity; Registration Mode: Applied exclusively to the upcoming active semester. This mode connects to the live database for real-time synchronization and automatically blocks classes that are fully booked.",
-    "nfr1": "",
-    "nfr2": "",
-    "nfr3": ""
+    "conflictSolution": "",
+    "nfr1": "Security: Ensure strict data privacy so that students cannot view other students' schedules under any circumstances.",
+    "nfr2": "Auditability: Maintain a secure system log of every manual prerequisite override performed by advisors for audit purposes.",
+    "nfr3": "Usability: Provide an intuitive, visual drag-and-drop interface to simplify roadmap planning and replace the current complex catalog."
   }
 }
