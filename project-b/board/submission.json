@@ -1,0 +1,29 @@
+{
+  "savedAt": "2026-06-02T10:46:54.131Z",
+  "groups": [
+    {
+      "id": "d0bafcd9-23de-4fac-a19d-fc237d553e48",
+      "name": "Blockers",
+      "color": "#2563eb"
+    },
+    {
+      "id": "dd107bd1-125e-410e-8006-f497c139d481",
+      "name": "Standard Work",
+      "color": "#059669"
+    },
+    {
+      "id": "40ffdce6-de4a-472b-bcc3-76c77ebac1a4",
+      "name": "Minors",
+      "color": "#d97706"
+    }
+  ],
+  "tickets": [],
+  "analysis": {
+    "ambiguity1": "Requirement: The app must force users to select a Safe Exchange Zone before they can chat.\n\nWhy it is vague: This creates an unnatural communication flow. It is unclear how a buyer can lock in a physical meetup location before they even chat with the seller to negotiate the price, ask about item conditions, or confirm availability.",
+    "ambiguity2": "",
+    "conflictSolution": "",
+    "nfr1": "",
+    "nfr2": "",
+    "nfr3": ""
+  }
+}
