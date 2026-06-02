@@ -1,18 +1,18 @@
 {
-  "savedAt": "2026-06-02T10:49:23.822Z",
+  "savedAt": "2026-06-02T10:50:46.389Z",
   "groups": [
     {
-      "id": "c1c9af8c-f535-4c96-b9df-67a022cb3fc2",
+      "id": "07152519-09db-41f7-bb31-05ffda7dd228",
       "name": "Blockers",
       "color": "#2563eb"
     },
     {
-      "id": "95b58403-d7e7-4b69-997b-03548ec1f2d5",
+      "id": "6232a7d7-8765-4817-9f09-e376d604d1cf",
       "name": "Standard Work",
       "color": "#059669"
     },
     {
-      "id": "29370bac-721b-489f-8790-d28dcca26630",
+      "id": "b57c1691-55ac-4365-af86-6bdb7fc74889",
       "name": "Minors",
       "color": "#d97706"
     }
@@ -21,9 +21,9 @@
   "analysis": {
     "ambiguity1": "",
     "ambiguity2": "",
-    "conflictSolution": "Conflict: The Legal Team insists the app cannot process payments or handle money at all, while the Student Union President wants to collect a 2% transaction fee on every sale to fund club activities. You cannot collect a percentage fee without processing the transaction on-platform.\n\nProposed Resolution: Keep peer-to-peer transactions entirely off-platform (cash or external Venmo) to satisfy the Legal Team. To fund club activities, pivot the monetization model away from transaction fees. Instead, implement a small flat fee for \"Featured/Boosted Listings\" or charge a minimal semester-based subscription fee for high-volume student sellers.",
-    "nfr1": "",
-    "nfr2": "",
-    "nfr3": ""
+    "conflictSolution": "",
+    "nfr1": "Security: Restrict account registration exclusively to individuals with a valid university .edu email address to prevent unauthorized city residents from accessing the platform.",
+    "nfr2": "Safety: Ensure all physical meetup suggestions are hardcoded and limited strictly to campus police-approved Safe Exchange Zones to guarantee student safety.",
+    "nfr3": "Usability: Provide highly responsive and accurate mobile camera integration for real-time barcode scanning with low latency across both iOS and Android devices."
   }
 }
