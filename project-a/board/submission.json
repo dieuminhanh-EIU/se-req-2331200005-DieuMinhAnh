@@ -1,29 +1,40 @@
 {
-  "savedAt": "2026-06-02T10:43:33.119Z",
+  "savedAt": "2026-06-02T11:17:01.126Z",
   "groups": [
     {
-      "id": "4e326462-37be-428f-9ea9-8afcaefe906c",
+      "id": "74b5aaae-a085-47cc-9d7c-ef08efa6649c",
       "name": "Blockers",
       "color": "#2563eb"
     },
     {
-      "id": "056fb74b-3935-4307-8f92-a919128174d3",
+      "id": "44da832e-4571-46f8-b053-9b0e6eb3698a",
       "name": "Standard Work",
       "color": "#059669"
     },
     {
-      "id": "b2f662d5-8b1e-4e0c-a2ef-135407b0c9fd",
+      "id": "9d9c0e21-9c07-4f82-bb7c-c463e73a5804",
       "name": "Minors",
       "color": "#d97706"
     }
   ],
-  "tickets": [],
+  "tickets": [
+    {
+      "id": "15099843-8f45-4f80-9e6d-960ee3449a49",
+      "title": "US001: 4-Year Planning Mode",
+      "description": "As a Student, I want to create a 4-year academic roadmap in \"Planning Mode\" without checking live seat availability, so that I can map out my entire degree path regardless of current class capacities.\n\nAcceptance Criteria:\n\n1. Pass/Fail: The system allows students to add courses to future semesters (beyond the current/next active one).\n\n2. Pass/Fail: The system evaluates prerequisite logic but does NOT block the addition based on live database seat limits for future terms.",
+      "groupId": "44da832e-4571-46f8-b053-9b0e6eb3698a",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": ""
+    }
+  ],
   "analysis": {
     "ambiguity1": "",
     "ambiguity2": "",
     "conflictSolution": "",
-    "nfr1": "Security: Ensure strict data privacy so that students cannot view other students' schedules under any circumstances.",
-    "nfr2": "Auditability: Maintain a secure system log of every manual prerequisite override performed by advisors for audit purposes.",
-    "nfr3": "Usability: Provide an intuitive, visual drag-and-drop interface to simplify roadmap planning and replace the current complex catalog."
+    "nfr1": "",
+    "nfr2": "",
+    "nfr3": ""
   }
 }
