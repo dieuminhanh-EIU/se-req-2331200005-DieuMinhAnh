@@ -1,18 +1,18 @@
 {
-  "savedAt": "2026-06-02T10:58:15.898Z",
+  "savedAt": "2026-06-02T10:59:36.465Z",
   "groups": [
     {
-      "id": "1128f3f4-d739-48f3-b53f-c5d3710273e0",
+      "id": "af3279d5-a265-4255-a813-ed7463920996",
       "name": "Blockers",
       "color": "#2563eb"
     },
     {
-      "id": "13a03ea7-5e46-436a-aef6-29faaeef3e11",
+      "id": "a1b6aeb4-41c8-44ac-a145-c251caf714a7",
       "name": "Standard Work",
       "color": "#059669"
     },
     {
-      "id": "60e68de9-8653-4ce8-8f26-f2997ce171f1",
+      "id": "75575a17-e4e4-4358-b061-9166fc257297",
       "name": "Minors",
       "color": "#d97706"
     }
@@ -21,9 +21,9 @@
   "analysis": {
     "ambiguity1": "",
     "ambiguity2": "",
-    "conflictSolution": "Conflict: The Chef demands the ability to mark items as \"Sold Out\" instantly to stop incoming orders. However, IT states the kitchen Wi-Fi is terrible and the Kitchen Display System (KDS) might go offline for up to 10 minutes. If the KDS is offline, the Chef's \"Sold Out\" command cannot sync to the cloud, meaning students will continue ordering out-of-stock items on their phones.\n\nProposed Resolution: Implement an automatic \"Ordering Pause\" fail-safe. If the central server detects that the kitchen KDS has been offline for more than 30 to 60 seconds, the mobile app must automatically suspend new orders and display a \"Live ordering temporarily paused\" banner until the kitchen's connection is restored.",
-    "nfr1": "",
-    "nfr2": "",
-    "nfr3": ""
+    "conflictSolution": "",
+    "nfr1": "Reliability/Resilience: The Kitchen Display System must be fault-tolerant, capable of caching data and functioning without crashing for a minimum of 10 minutes during active network outages, seamlessly syncing data once restored.",
+    "nfr2": "Performance: Critical inventory status updates (such as marking an item \"Sold Out\") must propagate from the kitchen interface to the mobile application in near real-time (e.g., under 2 seconds) under normal network conditions.",
+    "nfr3": "Accessibility/Usability: The mobile application must provide a strict, user-configurable allergen filtering engine that dynamically and completely removes non-compliant items from the user interface, rather than merely disabling them."
   }
 }
