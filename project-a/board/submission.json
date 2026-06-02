@@ -1,18 +1,18 @@
 {
-  "savedAt": "2026-06-02T10:26:44.398Z",
+  "savedAt": "2026-06-02T10:41:09.637Z",
   "groups": [
     {
-      "id": "b4718ce8-8f0f-49e4-8e41-d7714c8c11ed",
+      "id": "43b92d71-dd70-4d38-932b-9645b5723e39",
       "name": "Blockers",
       "color": "#2563eb"
     },
     {
-      "id": "2fde55da-d092-437a-96d4-c2889e0e15dd",
+      "id": "86802358-331b-4152-b686-e3d8915ac914",
       "name": "Standard Work",
       "color": "#059669"
     },
     {
-      "id": "1702f1f9-09ac-4304-9520-a6b2006df95a",
+      "id": "12ddd8bf-225c-42d8-a934-1793d0e5a516",
       "name": "Minors",
       "color": "#d97706"
     }
@@ -20,8 +20,8 @@
   "tickets": [],
   "analysis": {
     "ambiguity1": "",
-    "ambiguity2": "Requirement: The system should automatically block students from adding courses if they violate prerequisites, but at the same time allow advisors to “manually override” the requirements.\n\nWhy it's ambiguous: The process flow (workflow) for handling exceptions is completely ignored. If the UI prevents students from adding courses, how can any student put that course into a \"Pending Approval\" state in an attempt to view and override the system?",
-    "conflictSolution": "",
+    "ambiguity2": "",
+    "conflictSolution": "Conflict: A contradiction between the Head of Advising and the Registrar. The Head of Advising wants students to create a 4-year long-term plan, but the Registrar demands the system check the Live Database and block students from selecting full classes. Checking class seat availability for a semester 2 to 3 years in the future is impossible and directly conflicts with the goal of long-term planning.\n\nProposed Resolution: Design the system with two distinct operating modes: Planning Mode: Applied to future semesters. The system only validates prerequisite logic, allowing students to build a long-term roadmap without checking live database seating capacity; Registration Mode: Applied exclusively to the upcoming active semester. This mode connects to the live database for real-time synchronization and automatically blocks classes that are fully booked.",
     "nfr1": "",
     "nfr2": "",
     "nfr3": ""
