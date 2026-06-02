@@ -1,30 +1,50 @@
 {
-  "savedAt": "2026-06-02T11:29:00.858Z",
+  "savedAt": "2026-06-02T11:35:11.294Z",
   "groups": [
     {
-      "id": "9d924073-85af-4828-90b4-475b043f59b9",
+      "id": "c04849ae-013f-4b1c-bb43-7f428c76ff78",
       "name": "Blockers",
       "color": "#2563eb"
     },
     {
-      "id": "621b9f57-fed6-429d-80fb-b3bf3625aa11",
+      "id": "688c66e9-66c6-4d33-b8b7-5f17fa1e6599",
       "name": "Standard Work",
       "color": "#059669"
     },
     {
-      "id": "6ca0069b-634f-42fc-a88f-6e8ed3e1ea26",
+      "id": "2020a1ef-bb63-4c25-abe1-a1e2cf75fa3e",
       "name": "Minors",
       "color": "#d97706"
     }
   ],
   "tickets": [
     {
-      "id": "2949a5a5-3c82-48a1-8a46-23b975939a3d",
-      "title": "US005: Audit Logging for Overrides",
-      "description": "As an IT Security Officer, I want the system to automatically log every manual prerequisite override with a timestamp and advisor ID, so that we maintain a secure and compliant audit trail.\n\nAcceptance Criteria:\n1. Pass/Fail: Every successful override generates an immutable log entry in the security database.\n2. Pass/Fail: The log entry strictly contains the Timestamp, Student ID, Advisor ID, and Course Code.",
-      "groupId": "621b9f57-fed6-429d-80fb-b3bf3625aa11",
+      "id": "77edd0ac-702f-4127-9f9a-b1a27ed401ab",
+      "title": "NFR Epic 1: Epic 1 - Security & Privacy: Ensure strict data privacy so that studen",
+      "description": "Epic 1 - Security & Privacy: Ensure strict data privacy so that students cannot view other students' schedules under any circumstances, preventing unauthorized data exposure.",
+      "groupId": "688c66e9-66c6-4d33-b8b7-5f17fa1e6599",
+      "status": "progress",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "533b05bc-bcd7-455f-974f-b17d1128fdf8",
+      "title": "NFR Epic 2: Epic 2 - Auditability: Maintain a secure, immutable system log of ever",
+      "description": "Epic 2 - Auditability: Maintain a secure, immutable system log of every manual prerequisite override performed by advisors to satisfy IT security and compliance audits.",
+      "groupId": "688c66e9-66c6-4d33-b8b7-5f17fa1e6599",
       "status": "todo",
-      "type": "User Story",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "25991658-253f-4728-b9f8-ef913654e412",
+      "title": "NFR Epic 3: Epic 3 - Usability: Provide an intuitive, visual drag-and-drop interfa",
+      "description": "Epic 3 - Usability: Provide an intuitive, visual drag-and-drop interface to simplify macro-level roadmap planning and replace the current complex course catalog.",
+      "groupId": "688c66e9-66c6-4d33-b8b7-5f17fa1e6599",
+      "status": "review",
+      "type": "Epic",
       "priority": "Medium",
       "owner": ""
     }
@@ -33,8 +53,8 @@
     "ambiguity1": "",
     "ambiguity2": "",
     "conflictSolution": "",
-    "nfr1": "",
-    "nfr2": "",
-    "nfr3": ""
+    "nfr1": "Epic 1 - Security & Privacy: Ensure strict data privacy so that students cannot view other students' schedules under any circumstances, preventing unauthorized data exposure.",
+    "nfr2": "Epic 2 - Auditability: Maintain a secure, immutable system log of every manual prerequisite override performed by advisors to satisfy IT security and compliance audits.",
+    "nfr3": "Epic 3 - Usability: Provide an intuitive, visual drag-and-drop interface to simplify macro-level roadmap planning and replace the current complex course catalog."
   }
 }
