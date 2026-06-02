@@ -1,0 +1,29 @@
+{
+  "savedAt": "2026-06-02T10:25:19.961Z",
+  "groups": [
+    {
+      "id": "b8c5a0d6-30b2-4b1a-aee4-8d5acbfb8072",
+      "name": "Blockers",
+      "color": "#2563eb"
+    },
+    {
+      "id": "fdb3f66a-4d28-4450-aae2-ef4bd35b5cb4",
+      "name": "Standard Work",
+      "color": "#059669"
+    },
+    {
+      "id": "57f6ea54-9939-4360-9406-1b6b67fa6bab",
+      "name": "Minors",
+      "color": "#d97706"
+    }
+  ],
+  "tickets": [],
+  "analysis": {
+    "ambiguity1": "Requirement: A feature to “drag and drop courses into the calendar” and a “warning when selecting a class at 8:00 AM”.\n\nWhy it's ambiguous: This requirement is confusing the scope between \"4-Year Study Pathway\" (managing the model by semester) and \"Managing the model by time\" (managing the model by day/hour). Additionally, the 8:00 AM warning is a personal preference of the student; it's unclear whether this is a mandatory system feature (restricting hardcoding) or a personal setting option (customizable user settings).",
+    "ambiguity2": "",
+    "conflictSolution": "",
+    "nfr1": "",
+    "nfr2": "",
+    "nfr3": ""
+  }
+}
