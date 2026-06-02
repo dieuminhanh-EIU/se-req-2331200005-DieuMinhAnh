@@ -1,28 +1,28 @@
 {
-  "savedAt": "2026-06-02T11:25:20.856Z",
+  "savedAt": "2026-06-02T11:27:23.356Z",
   "groups": [
     {
-      "id": "a08dac01-953e-42f9-a37d-6878e96e574c",
+      "id": "be10677f-5dba-4c33-8b54-846e6ae3e7c0",
       "name": "Blockers",
       "color": "#2563eb"
     },
     {
-      "id": "a27d8312-3e82-492d-a805-6b972e2beaa3",
+      "id": "bcc3a325-3377-4bf2-bcd9-462028ce64fd",
       "name": "Standard Work",
       "color": "#059669"
     },
     {
-      "id": "357d19b6-f07e-458d-bdd4-b98145d37788",
+      "id": "f4a0d148-f704-4f34-88bc-d2c109f05968",
       "name": "Minors",
       "color": "#d97706"
     }
   ],
   "tickets": [
     {
-      "id": "f9a8e161-0b04-425f-8151-1cbed7036bdd",
-      "title": "US003: Request Prerequisite Override",
-      "description": "As a Student, I want to submit a prerequisite override request directly from the planner when blocked from adding a course, so that my academic advisor can review my special circumstances.\n\nAcceptance Criteria:\n1. Pass/Fail: A \"Request Override\" button appears when a course addition is blocked due to missing prerequisites.\n2. Pass/Fail: Submitting the request places the course in a \"Pending Advisor Approval\" status on the student's board.",
-      "groupId": "a27d8312-3e82-492d-a805-6b972e2beaa3",
+      "id": "86b1286a-6789-402a-be44-16ae7f926a0d",
+      "title": "US004: Advisor Override Dashboard",
+      "description": "As an Academic Advisor, I want to view, approve, or deny prerequisite override requests in a dedicated dashboard, so that I can manage special student permissions efficiently.\n\nAcceptance Criteria:\n1. Pass/Fail: The advisor can view a list of all pending override requests from assigned students.\n2. Pass/Fail: Clicking \"Approve\" automatically updates the student's roadmap and allows them to register for the course.",
+      "groupId": "bcc3a325-3377-4bf2-bcd9-462028ce64fd",
       "status": "todo",
       "type": "User Story",
       "priority": "Medium",
