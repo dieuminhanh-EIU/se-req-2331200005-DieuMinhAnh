@@ -1,26 +1,26 @@
 {
-  "savedAt": "2026-06-02T10:55:57.476Z",
+  "savedAt": "2026-06-02T10:57:16.443Z",
   "groups": [
     {
-      "id": "2fbf37be-f9cb-4097-96f1-dd87d7dd3567",
+      "id": "f1bc0d19-5c73-4105-9819-a709340704a1",
       "name": "Blockers",
       "color": "#2563eb"
     },
     {
-      "id": "b1aef61d-a470-487c-a091-962f21268a51",
+      "id": "6e5db61a-6f5d-4b54-a82d-6c3ab2f3a02b",
       "name": "Standard Work",
       "color": "#059669"
     },
     {
-      "id": "06101284-37f2-4a63-985b-887a2a8900de",
+      "id": "6ff792c7-be9e-4afe-91a7-8b30236d7e42",
       "name": "Minors",
       "color": "#d97706"
     }
   ],
   "tickets": [],
   "analysis": {
-    "ambiguity1": "Requirement: Students order food on their phones while walking from class, and the kitchen screen shows incoming orders.\n\nWhy it is vague: The fulfillment and timing workflow is undefined. It does not specify how the kitchen prioritizes these orders so the food is hot exactly when the student arrives, nor does it define how mobile order pickups are physically separated from the standard 20-minute line to actually save time.",
-    "ambiguity2": "",
+    "ambiguity1": "",
+    "ambiguity2": "Requirement: Sending push notifications to students at 11:30 AM with discounts on the daily special.\n\nWhy it is vague: The target audience parameters are not defined. Sending a daily mass push notification to the entire student body could be flagged as spam and cause app uninstalls. It is unclear if this should only target users physically on campus (geofencing), users who explicitly opt-in to marketing, or recent active users.",
     "conflictSolution": "",
     "nfr1": "",
     "nfr2": "",
