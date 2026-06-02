@@ -1,18 +1,18 @@
 {
-  "savedAt": "2026-06-02T10:57:16.443Z",
+  "savedAt": "2026-06-02T10:58:15.898Z",
   "groups": [
     {
-      "id": "f1bc0d19-5c73-4105-9819-a709340704a1",
+      "id": "1128f3f4-d739-48f3-b53f-c5d3710273e0",
       "name": "Blockers",
       "color": "#2563eb"
     },
     {
-      "id": "6e5db61a-6f5d-4b54-a82d-6c3ab2f3a02b",
+      "id": "13a03ea7-5e46-436a-aef6-29faaeef3e11",
       "name": "Standard Work",
       "color": "#059669"
     },
     {
-      "id": "6ff792c7-be9e-4afe-91a7-8b30236d7e42",
+      "id": "60e68de9-8653-4ce8-8f26-f2997ce171f1",
       "name": "Minors",
       "color": "#d97706"
     }
@@ -20,8 +20,8 @@
   "tickets": [],
   "analysis": {
     "ambiguity1": "",
-    "ambiguity2": "Requirement: Sending push notifications to students at 11:30 AM with discounts on the daily special.\n\nWhy it is vague: The target audience parameters are not defined. Sending a daily mass push notification to the entire student body could be flagged as spam and cause app uninstalls. It is unclear if this should only target users physically on campus (geofencing), users who explicitly opt-in to marketing, or recent active users.",
-    "conflictSolution": "",
+    "ambiguity2": "",
+    "conflictSolution": "Conflict: The Chef demands the ability to mark items as \"Sold Out\" instantly to stop incoming orders. However, IT states the kitchen Wi-Fi is terrible and the Kitchen Display System (KDS) might go offline for up to 10 minutes. If the KDS is offline, the Chef's \"Sold Out\" command cannot sync to the cloud, meaning students will continue ordering out-of-stock items on their phones.\n\nProposed Resolution: Implement an automatic \"Ordering Pause\" fail-safe. If the central server detects that the kitchen KDS has been offline for more than 30 to 60 seconds, the mobile app must automatically suspend new orders and display a \"Live ordering temporarily paused\" banner until the kitchen's connection is restored.",
     "nfr1": "",
     "nfr2": "",
     "nfr3": ""
