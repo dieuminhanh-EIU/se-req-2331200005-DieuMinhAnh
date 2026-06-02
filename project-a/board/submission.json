@@ -1,26 +1,26 @@
 {
-  "savedAt": "2026-06-02T10:25:19.961Z",
+  "savedAt": "2026-06-02T10:26:44.398Z",
   "groups": [
     {
-      "id": "b8c5a0d6-30b2-4b1a-aee4-8d5acbfb8072",
+      "id": "b4718ce8-8f0f-49e4-8e41-d7714c8c11ed",
       "name": "Blockers",
       "color": "#2563eb"
     },
     {
-      "id": "fdb3f66a-4d28-4450-aae2-ef4bd35b5cb4",
+      "id": "2fde55da-d092-437a-96d4-c2889e0e15dd",
       "name": "Standard Work",
       "color": "#059669"
     },
     {
-      "id": "57f6ea54-9939-4360-9406-1b6b67fa6bab",
+      "id": "1702f1f9-09ac-4304-9520-a6b2006df95a",
       "name": "Minors",
       "color": "#d97706"
     }
   ],
   "tickets": [],
   "analysis": {
-    "ambiguity1": "Requirement: A feature to “drag and drop courses into the calendar” and a “warning when selecting a class at 8:00 AM”.\n\nWhy it's ambiguous: This requirement is confusing the scope between \"4-Year Study Pathway\" (managing the model by semester) and \"Managing the model by time\" (managing the model by day/hour). Additionally, the 8:00 AM warning is a personal preference of the student; it's unclear whether this is a mandatory system feature (restricting hardcoding) or a personal setting option (customizable user settings).",
-    "ambiguity2": "",
+    "ambiguity1": "",
+    "ambiguity2": "Requirement: The system should automatically block students from adding courses if they violate prerequisites, but at the same time allow advisors to “manually override” the requirements.\n\nWhy it's ambiguous: The process flow (workflow) for handling exceptions is completely ignored. If the UI prevents students from adding courses, how can any student put that course into a \"Pending Approval\" state in an attempt to view and override the system?",
     "conflictSolution": "",
     "nfr1": "",
     "nfr2": "",
