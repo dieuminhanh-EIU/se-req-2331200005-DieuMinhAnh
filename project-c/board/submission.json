@@ -1,0 +1,29 @@
+{
+  "savedAt": "2026-06-02T10:55:57.476Z",
+  "groups": [
+    {
+      "id": "2fbf37be-f9cb-4097-96f1-dd87d7dd3567",
+      "name": "Blockers",
+      "color": "#2563eb"
+    },
+    {
+      "id": "b1aef61d-a470-487c-a091-962f21268a51",
+      "name": "Standard Work",
+      "color": "#059669"
+    },
+    {
+      "id": "06101284-37f2-4a63-985b-887a2a8900de",
+      "name": "Minors",
+      "color": "#d97706"
+    }
+  ],
+  "tickets": [],
+  "analysis": {
+    "ambiguity1": "Requirement: Students order food on their phones while walking from class, and the kitchen screen shows incoming orders.\n\nWhy it is vague: The fulfillment and timing workflow is undefined. It does not specify how the kitchen prioritizes these orders so the food is hot exactly when the student arrives, nor does it define how mobile order pickups are physically separated from the standard 20-minute line to actually save time.",
+    "ambiguity2": "",
+    "conflictSolution": "",
+    "nfr1": "",
+    "nfr2": "",
+    "nfr3": ""
+  }
+}
