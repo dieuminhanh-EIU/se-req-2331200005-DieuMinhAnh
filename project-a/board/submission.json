@@ -1,28 +1,28 @@
 {
-  "savedAt": "2026-06-02T11:17:01.126Z",
+  "savedAt": "2026-06-02T11:23:18.296Z",
   "groups": [
     {
-      "id": "74b5aaae-a085-47cc-9d7c-ef08efa6649c",
+      "id": "13da352f-02ae-4189-85bb-3685fe9ec6db",
       "name": "Blockers",
       "color": "#2563eb"
     },
     {
-      "id": "44da832e-4571-46f8-b053-9b0e6eb3698a",
+      "id": "e9ac9606-d044-42d7-96ae-31270a0f3012",
       "name": "Standard Work",
       "color": "#059669"
     },
     {
-      "id": "9d9c0e21-9c07-4f82-bb7c-c463e73a5804",
+      "id": "69d30a2f-adcc-4ea1-99f3-e7ed944b8bef",
       "name": "Minors",
       "color": "#d97706"
     }
   ],
   "tickets": [
     {
-      "id": "15099843-8f45-4f80-9e6d-960ee3449a49",
-      "title": "US001: 4-Year Planning Mode",
-      "description": "As a Student, I want to create a 4-year academic roadmap in \"Planning Mode\" without checking live seat availability, so that I can map out my entire degree path regardless of current class capacities.\n\nAcceptance Criteria:\n\n1. Pass/Fail: The system allows students to add courses to future semesters (beyond the current/next active one).\n\n2. Pass/Fail: The system evaluates prerequisite logic but does NOT block the addition based on live database seat limits for future terms.",
-      "groupId": "44da832e-4571-46f8-b053-9b0e6eb3698a",
+      "id": "1fc3a944-cb15-4c69-b24e-e9923a187fe3",
+      "title": "US002: Registration Mode Seat Validation",
+      "description": "As a Student, I want the system to block me from adding full classes to my current semester schedule in \"Registration Mode\", so that I do not accidentally plan for a class I cannot take.\n\nAcceptance Criteria:\n1. Pass/Fail: The system checks the live registration database for current semester capacity.\n2. Pass/Fail: An error message is displayed, and the action is blocked if a student tries to drag a \"Full\" class into their active semester schedule.",
+      "groupId": "e9ac9606-d044-42d7-96ae-31270a0f3012",
       "status": "todo",
       "type": "User Story",
       "priority": "Medium",
