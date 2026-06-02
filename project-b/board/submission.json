@@ -1,18 +1,18 @@
 {
-  "savedAt": "2026-06-02T10:48:05.323Z",
+  "savedAt": "2026-06-02T10:49:23.822Z",
   "groups": [
     {
-      "id": "bab1f438-3604-4a1d-a88d-6e1eec83543d",
+      "id": "c1c9af8c-f535-4c96-b9df-67a022cb3fc2",
       "name": "Blockers",
       "color": "#2563eb"
     },
     {
-      "id": "4ce62b1a-c46a-49ae-8dee-89140211a528",
+      "id": "95b58403-d7e7-4b69-997b-03548ec1f2d5",
       "name": "Standard Work",
       "color": "#059669"
     },
     {
-      "id": "d9959238-c929-4ce0-b677-c7761bdaf535",
+      "id": "29370bac-721b-489f-8790-d28dcca26630",
       "name": "Minors",
       "color": "#d97706"
     }
@@ -20,8 +20,8 @@
   "tickets": [],
   "analysis": {
     "ambiguity1": "",
-    "ambiguity2": "Requirement: Scanning the barcode with a phone camera to automatically populate the textbook's ISBN and Title.\n\nWhy it is vague: The requirement does not specify the external database or book catalog API (e.g., Google Books, Open Library) required to fetch this metadata from the scanned barcode. It is also unclear if this feature applies only to textbooks or other barcoded items.",
-    "conflictSolution": "",
+    "ambiguity2": "",
+    "conflictSolution": "Conflict: The Legal Team insists the app cannot process payments or handle money at all, while the Student Union President wants to collect a 2% transaction fee on every sale to fund club activities. You cannot collect a percentage fee without processing the transaction on-platform.\n\nProposed Resolution: Keep peer-to-peer transactions entirely off-platform (cash or external Venmo) to satisfy the Legal Team. To fund club activities, pivot the monetization model away from transaction fees. Instead, implement a small flat fee for \"Featured/Boosted Listings\" or charge a minimal semester-based subscription fee for high-volume student sellers.",
     "nfr1": "",
     "nfr2": "",
     "nfr3": ""
