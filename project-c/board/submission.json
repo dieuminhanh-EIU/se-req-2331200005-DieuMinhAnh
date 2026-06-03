@@ -1,28 +1,28 @@
 {
-  "savedAt": "2026-06-03T01:11:46.574Z",
+  "savedAt": "2026-06-03T01:12:49.695Z",
   "groups": [
     {
-      "id": "28dc9b46-2b2c-4ff7-b68d-dbfdc4ede102",
+      "id": "b564d154-6cac-4d0b-a446-d6a18e964fb6",
       "name": "Blockers",
       "color": "#2563eb"
     },
     {
-      "id": "c11e9197-1be0-42ca-b69b-600fbba7048b",
+      "id": "5a370124-273e-43dd-abae-039b0272f98a",
       "name": "Standard Work",
       "color": "#059669"
     },
     {
-      "id": "265e6974-cc23-4982-98da-47adf200ff03",
+      "id": "63807140-ebb3-4352-a3f6-806b53c8d126",
       "name": "Minors",
       "color": "#d97706"
     }
   ],
   "tickets": [
     {
-      "id": "39d0ddb2-efea-496f-a353-b85e6717ab9d",
-      "title": "US001: Strict Allergen Filtering",
-      "description": "As a Student with food allergies, I want to filter the entire cafeteria menu by selecting specific allergens (e.g., \"No Peanuts\"), so that I can safely browse and order without anxiety.\n\nAcceptance Criteria:\n1. Pass/Fail: When an allergen filter is applied, items containing that allergen are completely removed from the UI, not just greyed out or disabled.\n2. Pass/Fail: Multiple allergen filters can be applied simultaneously.",
-      "groupId": "c11e9197-1be0-42ca-b69b-600fbba7048b",
+      "id": "70ed9ddf-47e9-4f19-b47b-86f628f5e658",
+      "title": "US002: Remote Mobile Ordering",
+      "description": "As a Student, I want to place and confirm my food order via my mobile phone while walking from class, so that I can bypass the standard 20-minute physical line at the cafeteria.\n\nAcceptance Criteria:\n1. Pass/Fail: The user can successfully add items to a cart, confirm the order, and receive an estimated pickup time.\n2. Pass/Fail: The confirmed order instantly appears on the Kitchen Display System (KDS) queue.",
+      "groupId": "5a370124-273e-43dd-abae-039b0272f98a",
       "status": "todo",
       "type": "User Story",
       "priority": "Medium",
