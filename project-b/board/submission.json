@@ -1,28 +1,28 @@
 {
-  "savedAt": "2026-06-03T01:01:45.119Z",
+  "savedAt": "2026-06-03T01:03:54.053Z",
   "groups": [
     {
-      "id": "ba63204e-738b-4c92-bd9a-3f2485af0c8f",
+      "id": "f7373eb0-3dde-4a52-b33b-4be925846110",
       "name": "Blockers",
       "color": "#2563eb"
     },
     {
-      "id": "0983a18c-2bcc-4ff2-8ec3-eb777b1db845",
+      "id": "a03fb365-815c-4dd5-9a4d-4e559628be39",
       "name": "Standard Work",
       "color": "#059669"
     },
     {
-      "id": "d2cd9d77-430f-4575-a774-d30cb3a4262f",
+      "id": "973db6a8-edb7-4836-b564-cbb0eb4ff468",
       "name": "Minors",
       "color": "#d97706"
     }
   ],
   "tickets": [
     {
-      "id": "fb38bdb6-61df-4552-a0e5-3182c70045e7",
-      "title": "US001: Exclusive .edu Registration",
-      "description": "As a Student, I want to register for the app using my valid university .edu email address, so that I know I am only trading with verified campus members and avoiding outside strangers.\n\nAcceptance Criteria:\n1. Pass/Fail: The system rejects any registration attempt with a non-.edu email domain (e.g., @gmail.com, @yahoo.com).\n2. Pass/Fail: A verification link is sent to the .edu email, and the account cannot be used until the link is clicked.",
-      "groupId": "0983a18c-2bcc-4ff2-8ec3-eb777b1db845",
+      "id": "5c7af19d-fbdd-4d18-b85a-0449633c224c",
+      "title": "US002: Barcode Scanner for Textbooks",
+      "description": "As a Student selling items, I want to scan a textbook's barcode using my phone's camera, so that the app automatically populates the ISBN and Title without manual typing.\n\nAcceptance Criteria:\n1. Pass/Fail: The app successfully opens the device camera and captures standard ISBN barcodes.\n2. Pass/Fail: The system queries an external book database and auto-fills the \"Title\" and \"ISBN\" input fields based on the scanned code.",
+      "groupId": "a03fb365-815c-4dd5-9a4d-4e559628be39",
       "status": "todo",
       "type": "User Story",
       "priority": "Medium",
