@@ -1,29 +1,40 @@
 {
-  "savedAt": "2026-06-02T10:50:46.389Z",
+  "savedAt": "2026-06-03T01:01:45.119Z",
   "groups": [
     {
-      "id": "07152519-09db-41f7-bb31-05ffda7dd228",
+      "id": "ba63204e-738b-4c92-bd9a-3f2485af0c8f",
       "name": "Blockers",
       "color": "#2563eb"
     },
     {
-      "id": "6232a7d7-8765-4817-9f09-e376d604d1cf",
+      "id": "0983a18c-2bcc-4ff2-8ec3-eb777b1db845",
       "name": "Standard Work",
       "color": "#059669"
     },
     {
-      "id": "b57c1691-55ac-4365-af86-6bdb7fc74889",
+      "id": "d2cd9d77-430f-4575-a774-d30cb3a4262f",
       "name": "Minors",
       "color": "#d97706"
     }
   ],
-  "tickets": [],
+  "tickets": [
+    {
+      "id": "fb38bdb6-61df-4552-a0e5-3182c70045e7",
+      "title": "US001: Exclusive .edu Registration",
+      "description": "As a Student, I want to register for the app using my valid university .edu email address, so that I know I am only trading with verified campus members and avoiding outside strangers.\n\nAcceptance Criteria:\n1. Pass/Fail: The system rejects any registration attempt with a non-.edu email domain (e.g., @gmail.com, @yahoo.com).\n2. Pass/Fail: A verification link is sent to the .edu email, and the account cannot be used until the link is clicked.",
+      "groupId": "0983a18c-2bcc-4ff2-8ec3-eb777b1db845",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": ""
+    }
+  ],
   "analysis": {
     "ambiguity1": "",
     "ambiguity2": "",
     "conflictSolution": "",
-    "nfr1": "Security: Restrict account registration exclusively to individuals with a valid university .edu email address to prevent unauthorized city residents from accessing the platform.",
-    "nfr2": "Safety: Ensure all physical meetup suggestions are hardcoded and limited strictly to campus police-approved Safe Exchange Zones to guarantee student safety.",
-    "nfr3": "Usability: Provide highly responsive and accurate mobile camera integration for real-time barcode scanning with low latency across both iOS and Android devices."
+    "nfr1": "",
+    "nfr2": "",
+    "nfr3": ""
   }
 }
