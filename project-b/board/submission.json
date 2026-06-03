@@ -1,28 +1,28 @@
 {
-  "savedAt": "2026-06-03T01:03:54.053Z",
+  "savedAt": "2026-06-03T01:04:55.433Z",
   "groups": [
     {
-      "id": "f7373eb0-3dde-4a52-b33b-4be925846110",
+      "id": "8d8781b6-154d-458e-8a06-4c17b63e5566",
       "name": "Blockers",
       "color": "#2563eb"
     },
     {
-      "id": "a03fb365-815c-4dd5-9a4d-4e559628be39",
+      "id": "3d07eed3-461a-4094-9934-2047af3253b1",
       "name": "Standard Work",
       "color": "#059669"
     },
     {
-      "id": "973db6a8-edb7-4836-b564-cbb0eb4ff468",
+      "id": "6f70c784-f507-4a83-9a4d-63362fee4e6e",
       "name": "Minors",
       "color": "#d97706"
     }
   ],
   "tickets": [
     {
-      "id": "5c7af19d-fbdd-4d18-b85a-0449633c224c",
-      "title": "US002: Barcode Scanner for Textbooks",
-      "description": "As a Student selling items, I want to scan a textbook's barcode using my phone's camera, so that the app automatically populates the ISBN and Title without manual typing.\n\nAcceptance Criteria:\n1. Pass/Fail: The app successfully opens the device camera and captures standard ISBN barcodes.\n2. Pass/Fail: The system queries an external book database and auto-fills the \"Title\" and \"ISBN\" input fields based on the scanned code.",
-      "groupId": "a03fb365-815c-4dd5-9a4d-4e559628be39",
+      "id": "7a5a420d-c82d-4f70-b183-c87caef7cafb",
+      "title": "US003: Safe Exchange Zone Selection",
+      "description": "As a Student, I want to select a pre-approved Safe Exchange Zone from a drop-down list when scheduling a physical meetup, so that I feel secure during the transaction.\n\nAcceptance Criteria:\n1. Pass/Fail: The meetup location feature only allows selection from a hardcoded list of campus police-approved zones (e.g., \"Library Lobby\", \"Student Union\").\n2. Pass/Fail: The system does not allow users to type in custom, unverified locations for the official meetup point.",
+      "groupId": "3d07eed3-461a-4094-9934-2047af3253b1",
       "status": "todo",
       "type": "User Story",
       "priority": "Medium",
