@@ -1,30 +1,50 @@
 {
-  "savedAt": "2026-06-03T01:18:28.385Z",
+  "savedAt": "2026-06-03T01:19:16.100Z",
   "groups": [
     {
-      "id": "52715004-5996-4306-941a-9baeddfb1535",
+      "id": "2dd3e01c-58ca-4c13-8f06-876ed11c6e6f",
       "name": "Blockers",
       "color": "#2563eb"
     },
     {
-      "id": "0e0bd0f8-2b2b-43a5-bce9-0c287fbf26ba",
+      "id": "f65c5641-4e82-4ce3-a5f1-421b0e7c0c56",
       "name": "Standard Work",
       "color": "#059669"
     },
     {
-      "id": "1a9b1769-bb58-4d41-9adc-c8dc015042f1",
+      "id": "55a78795-a94f-444d-8328-b921bf132829",
       "name": "Minors",
       "color": "#d97706"
     }
   ],
   "tickets": [
     {
-      "id": "3ca2c6f8-4df7-460a-8bbb-fa1880d7a3ef",
-      "title": "US005: Auto-Pause Orders During Offline Mode",
-      "description": "As an IT Administrator, I want the system to automatically pause incoming mobile orders if the Kitchen Display System loses Wi-Fi connection, so that students do not place orders that the kitchen cannot currently receive.\n\nAcceptance Criteria:\n1. Pass/Fail: If the server detects the KDS is offline for more than 60 seconds, the mobile app displays a \"Live ordering temporarily paused\" banner.\n2. Pass/Fail: The KDS continues to display already-received orders without crashing.",
-      "groupId": "0e0bd0f8-2b2b-43a5-bce9-0c287fbf26ba",
+      "id": "96ab6434-1a37-4b99-9048-8e342cc17540",
+      "title": "NFR Epic 1: Epic 1 - Reliability/Resilience: The Kitchen Display System must be fa",
+      "description": "Epic 1 - Reliability/Resilience: The Kitchen Display System must be fault-tolerant, capable of caching data and functioning without crashing for a minimum of 10 minutes during active network outages, seamlessly syncing data once restored.",
+      "groupId": "f65c5641-4e82-4ce3-a5f1-421b0e7c0c56",
       "status": "todo",
-      "type": "User Story",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "21591867-15b1-4532-90a5-39c999ebe432",
+      "title": "NFR Epic 2: Epic 2 - Performance: Critical inventory status updates (such as marki",
+      "description": "Epic 2 - Performance: Critical inventory status updates (such as marking an item \"Sold Out\") must propagate from the kitchen interface to the mobile application in near real-time (e.g., under 2 seconds) under normal network conditions.",
+      "groupId": "f65c5641-4e82-4ce3-a5f1-421b0e7c0c56",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "252778a2-693c-4dff-b63d-7f83bcba3e51",
+      "title": "NFR Epic 3: Epic 3 - Accessibility/Usability: The mobile application must provide ",
+      "description": "Epic 3 - Accessibility/Usability: The mobile application must provide a strict, user-configurable allergen filtering engine that dynamically and completely removes non-compliant items from the user interface, rather than merely disabling them.",
+      "groupId": "f65c5641-4e82-4ce3-a5f1-421b0e7c0c56",
+      "status": "todo",
+      "type": "Epic",
       "priority": "Medium",
       "owner": ""
     }
@@ -33,8 +53,8 @@
     "ambiguity1": "",
     "ambiguity2": "",
     "conflictSolution": "",
-    "nfr1": "",
-    "nfr2": "",
-    "nfr3": ""
+    "nfr1": "Epic 1 - Reliability/Resilience: The Kitchen Display System must be fault-tolerant, capable of caching data and functioning without crashing for a minimum of 10 minutes during active network outages, seamlessly syncing data once restored.",
+    "nfr2": "Epic 2 - Performance: Critical inventory status updates (such as marking an item \"Sold Out\") must propagate from the kitchen interface to the mobile application in near real-time (e.g., under 2 seconds) under normal network conditions.",
+    "nfr3": "Epic 3 - Accessibility/Usability: The mobile application must provide a strict, user-configurable allergen filtering engine that dynamically and completely removes non-compliant items from the user interface, rather than merely disabling them."
   }
 }
