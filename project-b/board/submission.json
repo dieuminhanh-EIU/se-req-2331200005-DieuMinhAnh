@@ -1,28 +1,28 @@
 {
-  "savedAt": "2026-06-03T01:06:05.103Z",
+  "savedAt": "2026-06-03T01:07:14.051Z",
   "groups": [
     {
-      "id": "87842c28-cde2-42cf-8c35-8010f5dc45ec",
+      "id": "54ce1fcd-d42c-4dc8-8105-7c7069a9addd",
       "name": "Blockers",
       "color": "#2563eb"
     },
     {
-      "id": "8b3f0598-a905-4bb9-9fe7-e96e3274fd8e",
+      "id": "8373205d-0395-4098-ba63-1c960118c8f8",
       "name": "Standard Work",
       "color": "#059669"
     },
     {
-      "id": "eca8e835-6f10-4691-86fd-e8ff2c541d83",
+      "id": "7fa4b9b5-1db0-4fce-9088-eb9cc947659b",
       "name": "Minors",
       "color": "#d97706"
     }
   ],
   "tickets": [
     {
-      "id": "11f35461-4548-4a5a-8964-dd0fe2de77e8",
-      "title": "US004: Off-Platform Payment Agreement",
-      "description": "As a Student buying an item, I want the app to clearly instruct me to pay via cash or Venmo off-platform, so that I comply with the university's legal policy against in-app money processing.\n\nAcceptance Criteria:\n1. Pass/Fail: The \"Confirm Deal\" screen explicitly displays a warning that no money is handled within the app.\n2. Pass/Fail: The UI provides a safe text field to exchange Venmo handles or agree on exact cash amounts before the meetup.",
-      "groupId": "8b3f0598-a905-4bb9-9fe7-e96e3274fd8e",
+      "id": "7521636c-c4f6-4b30-b3c0-eec853621599",
+      "title": "US005: Boosted Listing Management",
+      "description": "As a Student Union Administrator, I want to set up and manage a flat fee for students to \"boost\" their listings, so that we can raise funds for club activities without taking illegal percentage fees from peer-to-peer sales.\n\nAcceptance Criteria:\n1. Pass/Fail: The Admin dashboard allows the administrator to configure the flat fee price for a \"Boosted Listing\".\n2. Pass/Fail: Listings that have been paid to be boosted are visually highlighted and pinned to the top of the search results for users.",
+      "groupId": "8373205d-0395-4098-ba63-1c960118c8f8",
       "status": "todo",
       "type": "User Story",
       "priority": "Medium",
