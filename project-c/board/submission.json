@@ -1,28 +1,28 @@
 {
-  "savedAt": "2026-06-03T01:16:05.808Z",
+  "savedAt": "2026-06-03T01:18:28.385Z",
   "groups": [
     {
-      "id": "6c8a6155-c924-4cee-9a69-ff6be41d715e",
+      "id": "52715004-5996-4306-941a-9baeddfb1535",
       "name": "Blockers",
       "color": "#2563eb"
     },
     {
-      "id": "14a3da95-83a9-4381-8150-1374a34c3176",
+      "id": "0e0bd0f8-2b2b-43a5-bce9-0c287fbf26ba",
       "name": "Standard Work",
       "color": "#059669"
     },
     {
-      "id": "d6c56fcf-e7ed-4fbc-983e-2eb0897abd35",
+      "id": "1a9b1769-bb58-4d41-9adc-c8dc015042f1",
       "name": "Minors",
       "color": "#d97706"
     }
   ],
   "tickets": [
     {
-      "id": "bc1835ea-a677-4a0c-8659-c7baa1a5f49c",
-      "title": "US004: Instant 'Sold Out' Toggle",
-      "description": "As a Kitchen Chef, I want to press a button on the Kitchen Display System to instantly mark an item as \"Sold Out\", so that students immediately stop ordering food we can no longer prepare.\n\nAcceptance Criteria:\n1. Pass/Fail: The Chef can toggle an \"In Stock / Sold Out\" status for any active menu item from the KDS.\n2. Pass/Fail: Within 2 seconds of marking an item \"Sold Out\" (under normal network conditions), the item becomes unorderable on the mobile app.",
-      "groupId": "14a3da95-83a9-4381-8150-1374a34c3176",
+      "id": "3ca2c6f8-4df7-460a-8bbb-fa1880d7a3ef",
+      "title": "US005: Auto-Pause Orders During Offline Mode",
+      "description": "As an IT Administrator, I want the system to automatically pause incoming mobile orders if the Kitchen Display System loses Wi-Fi connection, so that students do not place orders that the kitchen cannot currently receive.\n\nAcceptance Criteria:\n1. Pass/Fail: If the server detects the KDS is offline for more than 60 seconds, the mobile app displays a \"Live ordering temporarily paused\" banner.\n2. Pass/Fail: The KDS continues to display already-received orders without crashing.",
+      "groupId": "0e0bd0f8-2b2b-43a5-bce9-0c287fbf26ba",
       "status": "todo",
       "type": "User Story",
       "priority": "Medium",
