@@ -1,29 +1,40 @@
 {
-  "savedAt": "2026-06-02T10:59:36.465Z",
+  "savedAt": "2026-06-03T01:11:46.574Z",
   "groups": [
     {
-      "id": "af3279d5-a265-4255-a813-ed7463920996",
+      "id": "28dc9b46-2b2c-4ff7-b68d-dbfdc4ede102",
       "name": "Blockers",
       "color": "#2563eb"
     },
     {
-      "id": "a1b6aeb4-41c8-44ac-a145-c251caf714a7",
+      "id": "c11e9197-1be0-42ca-b69b-600fbba7048b",
       "name": "Standard Work",
       "color": "#059669"
     },
     {
-      "id": "75575a17-e4e4-4358-b061-9166fc257297",
+      "id": "265e6974-cc23-4982-98da-47adf200ff03",
       "name": "Minors",
       "color": "#d97706"
     }
   ],
-  "tickets": [],
+  "tickets": [
+    {
+      "id": "39d0ddb2-efea-496f-a353-b85e6717ab9d",
+      "title": "US001: Strict Allergen Filtering",
+      "description": "As a Student with food allergies, I want to filter the entire cafeteria menu by selecting specific allergens (e.g., \"No Peanuts\"), so that I can safely browse and order without anxiety.\n\nAcceptance Criteria:\n1. Pass/Fail: When an allergen filter is applied, items containing that allergen are completely removed from the UI, not just greyed out or disabled.\n2. Pass/Fail: Multiple allergen filters can be applied simultaneously.",
+      "groupId": "c11e9197-1be0-42ca-b69b-600fbba7048b",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": ""
+    }
+  ],
   "analysis": {
     "ambiguity1": "",
     "ambiguity2": "",
     "conflictSolution": "",
-    "nfr1": "Reliability/Resilience: The Kitchen Display System must be fault-tolerant, capable of caching data and functioning without crashing for a minimum of 10 minutes during active network outages, seamlessly syncing data once restored.",
-    "nfr2": "Performance: Critical inventory status updates (such as marking an item \"Sold Out\") must propagate from the kitchen interface to the mobile application in near real-time (e.g., under 2 seconds) under normal network conditions.",
-    "nfr3": "Accessibility/Usability: The mobile application must provide a strict, user-configurable allergen filtering engine that dynamically and completely removes non-compliant items from the user interface, rather than merely disabling them."
+    "nfr1": "",
+    "nfr2": "",
+    "nfr3": ""
   }
 }
