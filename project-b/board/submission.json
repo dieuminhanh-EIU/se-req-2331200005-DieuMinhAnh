@@ -1,28 +1,28 @@
 {
-  "savedAt": "2026-06-03T01:04:55.433Z",
+  "savedAt": "2026-06-03T01:06:05.103Z",
   "groups": [
     {
-      "id": "8d8781b6-154d-458e-8a06-4c17b63e5566",
+      "id": "87842c28-cde2-42cf-8c35-8010f5dc45ec",
       "name": "Blockers",
       "color": "#2563eb"
     },
     {
-      "id": "3d07eed3-461a-4094-9934-2047af3253b1",
+      "id": "8b3f0598-a905-4bb9-9fe7-e96e3274fd8e",
       "name": "Standard Work",
       "color": "#059669"
     },
     {
-      "id": "6f70c784-f507-4a83-9a4d-63362fee4e6e",
+      "id": "eca8e835-6f10-4691-86fd-e8ff2c541d83",
       "name": "Minors",
       "color": "#d97706"
     }
   ],
   "tickets": [
     {
-      "id": "7a5a420d-c82d-4f70-b183-c87caef7cafb",
-      "title": "US003: Safe Exchange Zone Selection",
-      "description": "As a Student, I want to select a pre-approved Safe Exchange Zone from a drop-down list when scheduling a physical meetup, so that I feel secure during the transaction.\n\nAcceptance Criteria:\n1. Pass/Fail: The meetup location feature only allows selection from a hardcoded list of campus police-approved zones (e.g., \"Library Lobby\", \"Student Union\").\n2. Pass/Fail: The system does not allow users to type in custom, unverified locations for the official meetup point.",
-      "groupId": "3d07eed3-461a-4094-9934-2047af3253b1",
+      "id": "11f35461-4548-4a5a-8964-dd0fe2de77e8",
+      "title": "US004: Off-Platform Payment Agreement",
+      "description": "As a Student buying an item, I want the app to clearly instruct me to pay via cash or Venmo off-platform, so that I comply with the university's legal policy against in-app money processing.\n\nAcceptance Criteria:\n1. Pass/Fail: The \"Confirm Deal\" screen explicitly displays a warning that no money is handled within the app.\n2. Pass/Fail: The UI provides a safe text field to exchange Venmo handles or agree on exact cash amounts before the meetup.",
+      "groupId": "8b3f0598-a905-4bb9-9fe7-e96e3274fd8e",
       "status": "todo",
       "type": "User Story",
       "priority": "Medium",
