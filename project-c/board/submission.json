@@ -1,28 +1,28 @@
 {
-  "savedAt": "2026-06-03T01:15:05.289Z",
+  "savedAt": "2026-06-03T01:16:05.808Z",
   "groups": [
     {
-      "id": "2e21a1fb-e2c5-4c54-98ee-7717bea91155",
+      "id": "6c8a6155-c924-4cee-9a69-ff6be41d715e",
       "name": "Blockers",
       "color": "#2563eb"
     },
     {
-      "id": "d70f73cf-4087-4477-965b-51a3084420a4",
+      "id": "14a3da95-83a9-4381-8150-1374a34c3176",
       "name": "Standard Work",
       "color": "#059669"
     },
     {
-      "id": "3a7efff1-5a65-416c-8f64-4f3c33d9a014",
+      "id": "d6c56fcf-e7ed-4fbc-983e-2eb0897abd35",
       "name": "Minors",
       "color": "#d97706"
     }
   ],
   "tickets": [
     {
-      "id": "08752a7e-9b05-41af-a1b0-ba57f13b18a0",
-      "title": "US003: Daily Special Push Notifications",
-      "description": "As a Student who has opted into marketing alerts, I want to receive a push notification at 11:30 AM regarding the daily lunch special, so that I can take advantage of cafeteria discounts.\n\nAcceptance Criteria:\n1. Pass/Fail: A scheduled push notification is sent successfully to opted-in devices exactly at 11:30 AM local time.\n2. Pass/Fail: Tapping the notification opens the app directly to the discounted daily special item.",
-      "groupId": "d70f73cf-4087-4477-965b-51a3084420a4",
+      "id": "bc1835ea-a677-4a0c-8659-c7baa1a5f49c",
+      "title": "US004: Instant 'Sold Out' Toggle",
+      "description": "As a Kitchen Chef, I want to press a button on the Kitchen Display System to instantly mark an item as \"Sold Out\", so that students immediately stop ordering food we can no longer prepare.\n\nAcceptance Criteria:\n1. Pass/Fail: The Chef can toggle an \"In Stock / Sold Out\" status for any active menu item from the KDS.\n2. Pass/Fail: Within 2 seconds of marking an item \"Sold Out\" (under normal network conditions), the item becomes unorderable on the mobile app.",
+      "groupId": "14a3da95-83a9-4381-8150-1374a34c3176",
       "status": "todo",
       "type": "User Story",
       "priority": "Medium",
